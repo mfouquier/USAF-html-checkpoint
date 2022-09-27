@@ -1,0 +1,15 @@
+#purple {
+  background-color: purple;
+}
+
+.blue {
+  height: 100px;
+  width: 300px;
+  background-color: blue;
+}
+
+div {
+  height: 50px;
+  width: 500px;
+  background-color: green;
+}
