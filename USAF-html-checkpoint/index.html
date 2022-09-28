@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="style.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+   <title>GMDB</title>
+</head>
+<body>
+  <header>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <a class="navbar-brand mx-1" href="#">Navbar</a>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link text-white" href="index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-white" href="login.html">Login</a>
+          </li>
+        </ul>
+      </div>
+        <div class=" collapse navbar-collapse d-flex justify-content-end">
+          <ul class="navbar-nav mr-auto">
+            <li>
+              <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+            </li>
+            <li>
+              <button class="btn btn-warning my-2 my-sm-0 mx-1" onclick="window.location.href='search.html'" type="submit">Search</button>
+            </li>
+          </ul>
+        </div>
+    </nav>
+  </header>
+
+
+  <div class="movie-grid">
+      <div class="poster" style="background-image:url('img/airplane.jpg')"></div>
+      <div class="poster" style="background-image:url('img/army.jpg')"></div>
+      <div class="poster" style="background-image:url('img/beetle.jpg')"></div>
+      <div class="poster" style="background-image:url('img/dune.jpg')"></div>
+      <div class="poster" style="background-image:url('img/dieHard.jpg')"></div>
+      <div class="poster" style="background-image:url('img/topgun.jpg')"></div>
+      <div class="poster" style="background-image:url('img/batman.jpg')"></div>
+      <div class="poster" style="background-image:url('img/empire.jpg')"></div>
+      <div class="poster" style="background-image:url('img/revenant.jpg')"></div>
+      <div class="poster" style="background-image:url('img/ragnarok.jpg')"></div>
+  </div>
+
+  <!-- Bootstrap Bundle with Popper Included -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
+</body>
+</html>

@@ -1,0 +1,45 @@
+.movie-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 1rem;
+  margin-top: 1rem;
+  margin-left: 1rem;
+  margin-right: 1rem;
+  grid-auto-rows: 500px;
+}
+
+.search-grid {
+  display: grid;
+  grid-template-columns: 30% 70%;
+  gap: 1rem;
+  margin-top: 1rem;
+  margin-left: 1rem;
+  margin-right: 1rem;
+  grid-auto-rows: 500px;
+}
+
+.comments-box {
+  display: flex;
+  flex-direction: column;
+  align-self: flex-end;
+  margin-bottom: 1rem;
+}
+
+.poster {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: #353535;
+  font-size: 3rem;
+  color: #fff;
+  box-shadow: rgba(3, 8, 20, 0.1) 0px 0.15rem 0.5rem, rgba(2, 8, 20, 0.1) 0px 0.075rem 0.175rem;
+  background-size: 100% auto;
+  border-radius: 4px;
+  transition: all 500ms;
+  overflow: hidden;
+
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
